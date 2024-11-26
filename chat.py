@@ -8,7 +8,7 @@ from langchain.prompts import PromptTemplate
 from openai import OpenAI
 
 # Set OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+# set OPENAI_API_KEY via export in terminal 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
